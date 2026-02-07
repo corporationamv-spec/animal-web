@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-translate-key="contact-title">Оставьте заявку</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="index.html" class="navbar-brand" data-translate-key="nav-brand">Expert Animal Web</a>
+  <div class="nav-links">
+    <a href="index.html" data-translate-key="nav-home">Главная</a>
+    <a href="services.html" data-translate-key="nav-services">Услуги</a>
+    <a href="process.html" data-translate-key="nav-process">Как мы работаем</a>
+    <a href="portfolio.html" data-translate-key="nav-portfolio">Портфолио</a>
+    <a href="contact.html" data-translate-key="nav-contact">Контакты</a>
+  </div>
+  <button id="langToggle">EN</button>
+</nav>
+
+<section>
+  <h2 data-translate-key="contact-title">Оставьте заявку</h2>
+
+  <form action="https://formspree.io/f/mykdyked" method="POST">
+    <label data-translate-key="contact-name">Имя</label>
+    <input type="text" name="name" required>
+
+    <label data-translate-key="contact-email">Email</label>
+    <input type="email" name="_replyto" required>
+
+    <label data-translate-key="contact-message">Сообщение</label>
+    <textarea name="message" rows="5" required></textarea>
+
+    <input type="hidden" name="_subject" value="Новая заявка с сайта Expert Animal Web">
+    <button type="submit" class="btn" data-translate-key="contact-btn">Отправить</button>
+  </form>
+
+  <p style="margin-top:20px; font-size:0.9rem;">Вы также можете написать нам на почту: <a href="mailto:corporationamv@gmail.com">corporationamv@gmail.com</a></p>
+</section>
+
+<footer>
+  <p>© 2026 Expert Animal Web</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+<script src="js/lang.js"></script>
+</body>
+</html>
